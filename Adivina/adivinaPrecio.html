@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Adivina</title>
+</head>
+<body >
+    <div>
+        <audio id="audio"  loop
+         src="audio/Good Morning! - Reed Mathis.mp3"></audio>
+        <!--<button id="playPauseBtn" onclick="playPause()">Play &#9658</button>
+        &nbsp;
+        &nbsp;
+        <button id="stopBtn">Stop &#9611</button>-->
+    
+    
+    </div>
+    <div id="playPauseBtn" >
+    <h2 >Music/mute</h2>
+</div>
+    <section class="section">
+        
+    <H1>Adivina cuanto gasté??</H1>
+    
+    <input class="inputs" id="ingresaPrecio" type="password" placeholder="ingreso precio de compra"/> 
+    
+   <input class="inputs" id="arriesgaNumero" type="text" placeholder="adiviná cuanto me salió" />
+    <button class="button" id="probar">Probar</button> <br/>
+    <div id="resultadosMal"></div>
+    <div class="ganador" id="resultadoBien"></div>
+    </section>
+    
+
+        <script src="adivinaPrecio.js"></script>
+</body>
+</html>

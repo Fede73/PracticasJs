@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#playPauseBtn { 
+                width: 300px;
+                 height: 100px;
+                  background: linear-gradient(90deg,yellow,red) ;
+                   border-radius: 50%;
+                   text-align: center;
+                  
+                   
+}
+h2 {
+    color: green;
+    padding: 10%;
+
+}
+.section{
+    width: 600px;
+    margin:auto;
+    background: #AAB7B8 ;
+    margin-top: 100px;
+    border-radius: 5px;
+    padding: 25px;
+
+}
+.section h1 {
+    text-align: center;
+    font-family: calibri;
+    font-size: 20px;
+}
+.section .button {
+    width: 100%;
+    margin: 5px;
+    
+}
+.section .button:hover{
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    border: 3px solid red;
+    background: yellow;
+}
+.inputs{
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+    color: blue;
+    margin: 5px;
+
+}
+.ganador {
+    font-size: 100px;
+    color: #844584;
+    text-align: center;
+    text-transform:uppercase;
+}
+aside {
+    width: 30%;
+    height: 300px;
+    float: right;
+}
+
+body {background:linear-gradient(90deg, #844584,#e9967e);}
